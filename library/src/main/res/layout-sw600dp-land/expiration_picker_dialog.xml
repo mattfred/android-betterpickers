@@ -4,7 +4,7 @@
     android:layout_height="match_parent"
     android:orientation="vertical">
 
-    <com.codetroopers.betterpickers.expirationpicker.ExpirationPicker
+    <com.mattfred.betterpickers.expirationpicker.ExpirationPicker
         android:id="@+id/expiration_picker"
         android:layout_width="match_parent"
         android:layout_height="match_parent" />

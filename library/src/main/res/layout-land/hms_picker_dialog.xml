@@ -4,7 +4,7 @@
     android:layout_height="match_parent"
     android:orientation="vertical">
 
-    <com.codetroopers.betterpickers.hmspicker.HmsPicker
+    <com.mattfred.betterpickers.hmspicker.HmsPicker
         android:id="@+id/hms_picker"
         android:layout_width="@dimen/dialog_body_width"
         android:layout_height="@dimen/dialog_body_height" />

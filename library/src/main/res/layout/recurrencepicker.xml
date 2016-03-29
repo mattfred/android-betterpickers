@@ -117,7 +117,7 @@
                             android:layout_height="wrap_content" />
                     </LinearLayout>
 
-                    <com.codetroopers.betterpickers.recurrencepicker.LinearLayoutWithMaxWidth
+                    <com.mattfred.betterpickers.recurrencepicker.LinearLayoutWithMaxWidth
                         android:id="@+id/weekGroup"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
@@ -127,22 +127,22 @@
                         android:gravity="center_horizontal"
                         android:orientation="horizontal">
 
-                        <com.codetroopers.betterpickers.recurrencepicker.WeekButton style="@style/RecurrenceDayOfWeekStyle" />
+                        <com.mattfred.betterpickers.recurrencepicker.WeekButton style="@style/RecurrenceDayOfWeekStyle" />
 
-                        <com.codetroopers.betterpickers.recurrencepicker.WeekButton style="@style/RecurrenceDayOfWeekStyle" />
+                        <com.mattfred.betterpickers.recurrencepicker.WeekButton style="@style/RecurrenceDayOfWeekStyle" />
 
-                        <com.codetroopers.betterpickers.recurrencepicker.WeekButton style="@style/RecurrenceDayOfWeekStyle" />
+                        <com.mattfred.betterpickers.recurrencepicker.WeekButton style="@style/RecurrenceDayOfWeekStyle" />
 
-                        <com.codetroopers.betterpickers.recurrencepicker.WeekButton style="@style/RecurrenceDayOfWeekStyle" />
+                        <com.mattfred.betterpickers.recurrencepicker.WeekButton style="@style/RecurrenceDayOfWeekStyle" />
 
-                        <com.codetroopers.betterpickers.recurrencepicker.WeekButton style="@style/RecurrenceDayOfWeekStyle" />
+                        <com.mattfred.betterpickers.recurrencepicker.WeekButton style="@style/RecurrenceDayOfWeekStyle" />
 
-                        <com.codetroopers.betterpickers.recurrencepicker.WeekButton style="@style/RecurrenceDayOfWeekStyle" />
+                        <com.mattfred.betterpickers.recurrencepicker.WeekButton style="@style/RecurrenceDayOfWeekStyle" />
 
-                        <com.codetroopers.betterpickers.recurrencepicker.WeekButton style="@style/RecurrenceDayOfWeekStyle" />
-                    </com.codetroopers.betterpickers.recurrencepicker.LinearLayoutWithMaxWidth>
+                        <com.mattfred.betterpickers.recurrencepicker.WeekButton style="@style/RecurrenceDayOfWeekStyle" />
+                    </com.mattfred.betterpickers.recurrencepicker.LinearLayoutWithMaxWidth>
 
-                    <com.codetroopers.betterpickers.recurrencepicker.LinearLayoutWithMaxWidth
+                    <com.mattfred.betterpickers.recurrencepicker.LinearLayoutWithMaxWidth
                         android:id="@+id/weekGroup2"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
@@ -152,16 +152,16 @@
                         android:orientation="horizontal"
                         android:visibility="gone">
 
-                        <com.codetroopers.betterpickers.recurrencepicker.WeekButton style="@style/RecurrenceDayOfWeekStyle" />
+                        <com.mattfred.betterpickers.recurrencepicker.WeekButton style="@style/RecurrenceDayOfWeekStyle" />
 
-                        <com.codetroopers.betterpickers.recurrencepicker.WeekButton style="@style/RecurrenceDayOfWeekStyle" />
+                        <com.mattfred.betterpickers.recurrencepicker.WeekButton style="@style/RecurrenceDayOfWeekStyle" />
 
-                        <com.codetroopers.betterpickers.recurrencepicker.WeekButton style="@style/RecurrenceDayOfWeekStyle" />
+                        <com.mattfred.betterpickers.recurrencepicker.WeekButton style="@style/RecurrenceDayOfWeekStyle" />
 
-                        <com.codetroopers.betterpickers.recurrencepicker.WeekButton
+                        <com.mattfred.betterpickers.recurrencepicker.WeekButton
                             style="@style/RecurrenceDayOfWeekStyle"
                             android:visibility="invisible" />
-                    </com.codetroopers.betterpickers.recurrencepicker.LinearLayoutWithMaxWidth>
+                    </com.mattfred.betterpickers.recurrencepicker.LinearLayoutWithMaxWidth>
 
                     <RadioGroup
                         android:id="@+id/monthGroup"

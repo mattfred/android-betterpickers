@@ -24,7 +24,7 @@
     android:gravity="center"
     android:orientation="vertical">
 
-    <com.codetroopers.betterpickers.widget.AccessibleLinearLayout
+    <com.mattfred.betterpickers.widget.AccessibleLinearLayout
         android:id="@+id/date_picker_month_and_day"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -57,9 +57,9 @@
             android:textColor="@color/date_picker_selector"
             android:textSize="@dimen/selected_date_day_size"
             tools:text="31"/>
-    </com.codetroopers.betterpickers.widget.AccessibleLinearLayout>
+    </com.mattfred.betterpickers.widget.AccessibleLinearLayout>
 
-    <com.codetroopers.betterpickers.widget.AccessibleTextView
+    <com.mattfred.betterpickers.widget.AccessibleTextView
         android:id="@+id/date_picker_year"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
