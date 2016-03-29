@@ -312,12 +312,7 @@ public class CalendarDatePickerDialogFragment extends DialogFragment implements 
 
             @Override
             public void onClick(View v) {
-                tryVibrate();
-                if (mCallBack != null) {
-                    mCallBack.onDateSet(CalendarDatePickerDialogFragment.this, mCalendar.get(Calendar.YEAR),
-                            mCalendar.get(Calendar.MONTH), mCalendar.get(Calendar.DAY_OF_MONTH));
-                }
-                dismiss();
+                onOkClick();
             }
         });
         Button cancelButton = (Button) view.findViewById(R.id.cancel_button);
@@ -364,6 +359,15 @@ public class CalendarDatePickerDialogFragment extends DialogFragment implements 
         mDayPickerView.setBackgroundColor(mainColor2);
 
         return view;
+    }
+
+    private void onOkClick() {
+        tryVibrate();
+        if (mCallBack != null) {
+            mCallBack.onDateSet(CalendarDatePickerDialogFragment.this, mCalendar.get(Calendar.YEAR),
+                    mCalendar.get(Calendar.MONTH), mCalendar.get(Calendar.DAY_OF_MONTH));
+        }
+        dismiss();
     }
 
     @Override
@@ -566,6 +570,9 @@ public class CalendarDatePickerDialogFragment extends DialogFragment implements 
         mCalendar.set(Calendar.DAY_OF_MONTH, day);
         updatePickers();
         updateDisplay(true);
+
+        // skip extra button click
+        onOkClick();
     }
 
     private void updatePickers() {
