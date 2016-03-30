@@ -9,9 +9,8 @@ buildscript {
     }
     dependencies {
         classpath 'com.android.tools.build:gradle:1.5.0'
-        // to auto install sdk components when building see #248
-        // classpath 'com.jakewharton.sdkmanager:gradle-plugin:0.12.+'
-        classpath 'com.github.plastiv:sdk-manager-plugin:b04aea1cddf87e78db9a4372794d678f9e568c48'
+        classpath 'com.jfrog.bintray.gradle:gradle-bintray-plugin:1.4'
+        classpath 'com.github.dcendents:android-maven-gradle-plugin:1.3'
 
 
         // NOTE: Do not place your application dependencies here; they belong
@@ -25,12 +24,5 @@ allprojects {
     group = GROUP
     repositories {
         jcenter()
-        mavenLocal()
-        mavenCentral()
-    }
-    apply plugin: 'android-sdk-manager' //see #248
-
-    sdkManager {
-        minSdkToolsVersion '24.4.1'
     }
 }
